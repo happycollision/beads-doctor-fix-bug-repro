@@ -10,9 +10,11 @@ The sync branch is **supposed** to diverge from main - it only tracks `.beads/` 
 
 ## Reproduction Steps
 
+**Note:** Fork this repo first - you'll need push access to see the full destructive behavior.
+
 ```bash
-# 1. Clone this repo
-git clone https://github.com/happycollision/beads-doctor-fix-bug-repro.git
+# 1. Fork this repo on GitHub, then clone your fork
+git clone https://github.com/YOUR_USERNAME/beads-doctor-fix-bug-repro.git
 cd beads-doctor-fix-bug-repro
 
 # 2. Verify the starting state
